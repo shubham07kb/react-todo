@@ -1,0 +1,43 @@
+.notes {
+	margin: 0 auto;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+
+.notes h3 {
+	text-align: center;
+}
+
+.footer {
+	font-size: 16px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background-color: #333;
+	color: white;
+	padding: 10px;
+}
+
+.name-link {
+	color: white;
+	text-decoration: none;
+}
+
+.heart {
+	color: #ff0000;
+}
+
+@media screen and (max-width: 768px) {
+
+	.notes {
+		width: 95%;
+	}
+
+	.footer {
+		width: 100%;
+		text-align: center;
+		font-size: 12px;
+		padding: 5px;
+	}
+}

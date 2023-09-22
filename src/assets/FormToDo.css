@@ -1,0 +1,38 @@
+.form {
+	padding: 10px 10px;
+	margin: 5px;
+	width: 100%;
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	border: 1px solid var(--border-color);
+}
+  
+.form input {
+	border: none;
+	font-size:16px;
+	font-weight: 700;
+	width: 80%;
+	font-family: Verdana, Tahoma, sans-serif;
+	color: #707070;
+}
+  
+.form button {
+	width: 100px;
+	height: 50px;
+	border: none;
+	border-radius: 5px;
+	color: var(--white);
+	background-color: var(--btn-color);
+	font-size: 20px;
+}
+
+.form button:disabled {
+	background-color: var(--disabled-btn-color);
+}
+
+input:focus {
+	outline: none;
+	border: none; /* Optionally, remove the border as well */
+	color: #707070;
+}

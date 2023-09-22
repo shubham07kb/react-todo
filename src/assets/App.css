@@ -1,0 +1,36 @@
+:root {
+	--white: #ffffff;
+	--border-color: #c5c5c5;
+	--icon-color: #111111;
+	--btn-color: #567b51;
+	--disabled-btn-color: #A0D68D;
+}
+
+body {
+	font-family: sans-serif;
+	color: #707070;
+}
+
+.main {
+	margin: 20px auto;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid var(--border-color);
+}
+
+.lists {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 5px auto;
+}
+
+@media screen and (max-width: 768px) {
+
+	.main {
+		width: 95%;
+	}
+}
